@@ -1,0 +1,67 @@
+
+Jorgito@DESKTOP-2GPPG28 MINGW64 /e/PortableApps/HTML2/RepProjects
+$ git config --global user.name "Jorge Sagastume"
+
+Jorgito@DESKTOP-2GPPG28 MINGW64 /e/PortableApps/HTML2/RepProjects
+$ git config --global user.email "jsagastume2@bucs.fsw.edu"
+
+Jorgito@DESKTOP-2GPPG28 MINGW64 /e/PortableApps/HTML2/RepProjects
+$ pwd
+/e/PortableApps/HTML2/RepProjects
+
+Jorgito@DESKTOP-2GPPG28 MINGW64 /e/PortableApps/HTML2/RepProjects
+$ ls
+Chapter1/            JorgeS_Amazeriffic/      jsagastume_HelloWorld/
+JSagastume_InClass/  JorgeSagastume_1-26-17/
+
+Jorgito@DESKTOP-2GPPG28 MINGW64 /e/PortableApps/HTML2/RepProjects
+$ cd JorgeS_Amazeriffic
+
+Jorgito@DESKTOP-2GPPG28 MINGW64 /e/PortableApps/HTML2/RepProjects/JorgeS_Amazeriffic (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   index.html
+        modified:   style.css
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Jorgito@DESKTOP-2GPPG28 MINGW64 /e/PortableApps/HTML2/RepProjects/JorgeS_Amazeriffic (master)
+$ git add index.html
+
+Jorgito@DESKTOP-2GPPG28 MINGW64 /e/PortableApps/HTML2/RepProjects/JorgeS_Amazeriffic (master)
+$ git commit -m "Wrap div class around footers and lightbulb image"
+[master 9a23d44] Wrap div class around footers and lightbulb image
+ 1 file changed, 85 insertions(+), 64 deletions(-)
+ rewrite index.html (84%)
+
+Jorgito@DESKTOP-2GPPG28 MINGW64 /e/PortableApps/HTML2/RepProjects/JorgeS_Amazeriffic (master)
+$ git add style.css
+
+Jorgito@DESKTOP-2GPPG28 MINGW64 /e/PortableApps/HTML2/RepProjects/JorgeS_Amazeriffic (master)
+$ git commit -m "Add styles to Footers and Image to arrange position"
+[master 2a07d67] Add styles to Footers and Image to arrange position
+ 1 file changed, 32 insertions(+), 11 deletions(-)
+
+Jorgito@DESKTOP-2GPPG28 MINGW64 /e/PortableApps/HTML2/RepProjects/JorgeS_Amazeriffic (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+nothing to commit, working tree clean
+
+Jorgito@DESKTOP-2GPPG28 MINGW64 /e/PortableApps/HTML2/RepProjects/JorgeS_Amazeriffic (master)
+$ git push
+Username for 'https://github.com': jorgebluth
+Counting objects: 6, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 1.37 KiB | 0 bytes/s, done.
+Total 6 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 1 local objects.
+To https://github.com/BytingBucs2-0/JorgeS_Amazeriffic
+   ab220af..2a07d67  master -> master
